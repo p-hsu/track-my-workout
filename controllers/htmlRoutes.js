@@ -1,0 +1,1 @@
+// get routes for rendering onto index, dashboard, and stats html pages

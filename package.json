@@ -1,0 +1,33 @@
+{
+  "name": "track-my-workout",
+  "version": "1.0.0",
+  "description": "Simple workout tracker to keep up with your fitness",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-hsu/track-my-workout.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoos",
+    "express",
+    "node.js"
+  ],
+  "author": "Pamela Hsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p-hsu/track-my-workout/issues"
+  },
+  "homepage": "https://github.com/p-hsu/track-my-workout#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0"
+  }
+}

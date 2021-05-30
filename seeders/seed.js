@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 const db = require('../models');
+const dotenv = require('dotenv');
 
-mongoose.connect('mongodb://localhost/workout', {
+dotenv.config();
+mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.ephbh.mongodb.net/workoutDB?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,

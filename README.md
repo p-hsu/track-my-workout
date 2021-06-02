@@ -73,6 +73,12 @@ The following lists all functions within this project:
 
 ## Usage
 
+Running with CLI:
+`npm install` : install npm packages
+`npm run seed`: seed database
+`npm run watch`: to start application on local server *WITH* nodemon
+`npm start`: to start application on local server *WITHOUT* nodemon
+
 ## Application Screenshots
 **Homepage of app with view of last workout and options**
 

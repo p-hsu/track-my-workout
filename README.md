@@ -62,7 +62,10 @@ The following lists all functions within this project:
 2. Open Terminal (MacOS) or Git Bash (Windows) and change location to where you want the cloned directory
 3. Type `git clone` and paste copied respository
 4. Directory should include the following:
-![Directory Structure:](./assets/images/dir-struc.png)
+
+![Directory Structure:](./assets/images/dir-struc-head.png)
+![Directory Structure:](./assets/images/dir-struc-mid.png)
+![Directory Structure:](./assets/images/dir-struc-tail.png)
 
 5. Node.js is required for this application: download [HERE](https://nodejs.org/en/download/)
 
